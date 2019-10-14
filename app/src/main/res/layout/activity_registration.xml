@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Black"
+    tools:context=".RegistrationActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/gradient">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Registration"
+                    android:textColor="@color/White"
+                    android:textSize="32sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_person_white_24dp"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="text"
+                android:padding="8dp"
+                android:textColorHint="@color/White"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/White" />
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_local_phone_white_24dp"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Phone"
+                android:inputType="text|number"
+                android:padding="8dp"
+                android:textColorHint="@color/White"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/White" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_email_white_24dp"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:padding="8dp"
+                android:textColorHint="@color/White"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/White" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:drawablePadding="12dp"
+                android:padding="8dp"
+                android:hint="Password"
+                android:textColorHint="@color/White"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="4dp"
+                android:drawableLeft="@drawable/ic_lock_white_24dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/White" />
+
+            <EditText
+                android:id="@+id/conPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:drawablePadding="12dp"
+                android:padding="8dp"
+                android:hint="Confirm Password"
+                android:textColorHint="@color/White"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="4dp"
+                android:drawableLeft="@drawable/ic_lock_white_24dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/White" />
+
+            <Button
+                android:id="@+id/registerButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/button_style_no_background"
+                android:text="Create Account"
+                android:textColor="@color/White"
+                android:textAllCaps="false"
+                android:padding="16dp"
+                android:clickable="true"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
