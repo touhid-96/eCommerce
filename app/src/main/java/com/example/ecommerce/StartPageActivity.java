@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class StartPageActivity extends AppCompatActivity {
     private Context context;
 
     private Button registration, login;
@@ -15,8 +15,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        context = MainActivity.this;
+        setContentView(R.layout.activity_start_page);
+        context = StartPageActivity.this;
 
         registration = (Button) findViewById(R.id.registration_btn);
         login = (Button) findViewById(R.id.login_btn);

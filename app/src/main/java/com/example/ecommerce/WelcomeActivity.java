@@ -29,8 +29,8 @@ public class WelcomeActivity extends AppCompatActivity {
                     e.printStackTrace();
                 } finally
                 {
-                    Intent mainIntent = new Intent(context, MainActivity.class);
-                    startActivity(mainIntent);
+                    Intent homeIntent = new Intent(context, HomeActivity.class);
+                    startActivity(homeIntent);
                 }
             }
         };
